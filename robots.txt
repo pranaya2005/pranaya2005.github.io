@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://pranaya2005.eu.org/sitemap.xml
+Sitemap: https://pranaya.xyz/sitemap.xml
