@@ -2,10 +2,10 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://pranaya.xyz/categories/</loc>
+    <loc>https://pranaya.dev/categories/</loc>
   </url><url>
-    <loc>https://pranaya.xyz/</loc>
+    <loc>https://pranaya.dev/</loc>
   </url><url>
-    <loc>https://pranaya.xyz/tags/</loc>
+    <loc>https://pranaya.dev/tags/</loc>
   </url>
 </urlset>
