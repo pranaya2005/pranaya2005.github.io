@@ -4,18 +4,19 @@
     <title>Yunluo on Pranaya Deomani</title>
     <link>https://pranaya.dev/tags/yunluo/</link>
     <description>Recent content in Yunluo on Pranaya Deomani</description>
-    <generator>Hugo -- 0.129.0</generator>
+    <generator>Hugo -- 0.131.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Jul 2024 17:45:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 09 Aug 2024 00:45:00 +0530</lastBuildDate>
     <atom:link href="https://pranaya.dev/tags/yunluo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>StatiXOS v7.10 for Xiaomi Redmi Pad (yunluo)</title>
+      <title>StatiXOS v7.11 for Xiaomi Redmi Pad (yunluo)</title>
       <link>https://pranaya.dev/posts/statixos-yunluo/</link>
-      <pubDate>Wed, 24 Jul 2024 17:45:00 +0530</pubDate>
+      <pubDate>Fri, 09 Aug 2024 00:45:00 +0530</pubDate>
       <guid>https://pranaya.dev/posts/statixos-yunluo/</guid>
       <description>StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.
-Changelog 2024-07-22 Device side:
-Merged July 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.3.0.ULYMIXM Fixed crackling audio output from speakers Fixed brightness curve and adaptive brightness Considerably improve active and idle battery drain Improved RAM management Enabled Android Verified Boot (AVB) Rework status bar paddings Optimise apps for bigger screens Disable unutilised system blurs to further improve performance Source side:</description>
+Changelog 2024-08-08 Device side:
+Merged August 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM Source side:
+August 2024 ASB Enabled redesigned Android 15 status bar icons Added smartspace to lock screen Added Face Unlock with ParanoidSense Make Circle to Search toggleable Make most of the user apps cloneable Optimize art, bionic and skia for performance Fixed Google account profile picture in Settings 2024-07-22 Device side:</description>
     </item>
   </channel>
 </rss>
