@@ -4,19 +4,43 @@
     <title>Statixos on Pranaya Deomani</title>
     <link>https://pranaya.dev/tags/statixos/</link>
     <description>Recent content in Statixos on Pranaya Deomani</description>
-    <generator>Hugo -- 0.131.0</generator>
+    <generator>Hugo -- 0.134.2</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 09 Aug 2024 00:45:00 +0530</lastBuildDate>
+    <lastBuildDate>Fri, 13 Sep 2024 09:00:00 +0530</lastBuildDate>
     <atom:link href="https://pranaya.dev/tags/statixos/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>StatiXOS v7.11 for Xiaomi Redmi Pad (yunluo)</title>
+      <title>StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)</title>
       <link>https://pranaya.dev/posts/statixos-yunluo/</link>
-      <pubDate>Fri, 09 Aug 2024 00:45:00 +0530</pubDate>
+      <pubDate>Fri, 13 Sep 2024 09:00:00 +0530</pubDate>
       <guid>https://pranaya.dev/posts/statixos-yunluo/</guid>
-      <description>StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.
-Changelog 2024-08-08 Device side:
-Merged August 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM Source side:
-August 2024 ASB Enabled redesigned Android 15 status bar icons Added smartspace to lock screen Added Face Unlock with ParanoidSense Make Circle to Search toggleable Make most of the user apps cloneable Optimize art, bionic and skia for performance Fixed Google account profile picture in Settings 2024-07-22 Device side:</description>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2023.png&#34; alt=&#34;StatiXOS&#34;  /&gt;
+
+StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.&lt;/p&gt;
+&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
+&lt;p&gt;&lt;details open &gt;
+  &lt;summary&gt;&lt;strong&gt;2024-09-13&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;strong&gt;Device side:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Merged September 2024 ASB into kernel&lt;/li&gt;
+&lt;li&gt;Fixed occasional media playback issues&lt;/li&gt;
+&lt;li&gt;Fixed USB audio playback&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Source side:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;September 2024 ASB&lt;/li&gt;
+&lt;li&gt;Fixed Play Integrity once again&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;/details&gt;
+
+&lt;details ZgotmplZ &gt;
+  &lt;summary&gt;&lt;strong&gt;2024-08-08&lt;/strong&gt;&lt;/summary&gt;
+  &lt;p&gt;&lt;strong&gt;Device side:&lt;/strong&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Merged August 2024 ASB into kernel&lt;/li&gt;
+&lt;li&gt;Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;Source side:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
