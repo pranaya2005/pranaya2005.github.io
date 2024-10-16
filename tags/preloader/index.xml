@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Pranaya Deomani</title>
-    <link>https://pranaya.dev/posts/</link>
-    <description>Recent content in Posts on Pranaya Deomani</description>
+    <title>Preloader on Pranaya Deomani</title>
+    <link>https://pranaya.dev/tags/preloader/</link>
+    <description>Recent content in Preloader on Pranaya Deomani</description>
     <generator>Hugo -- 0.136.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Oct 2024 18:05:18 +0530</lastBuildDate>
-    <atom:link href="https://pranaya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://pranaya.dev/tags/preloader/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it</title>
       <link>https://pranaya.dev/posts/preloader_yunluo/</link>
@@ -140,40 +140,6 @@
 &lt;/svg&gt;
 
         &lt;/span&gt;Note&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)</title>
-      <link>https://pranaya.dev/posts/statixos-yunluo/</link>
-      <pubDate>Fri, 13 Sep 2024 09:00:00 +0530</pubDate>
-      <guid>https://pranaya.dev/posts/statixos-yunluo/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2023.png&#34; alt=&#34;StatiXOS&#34;  /&gt;
-
-StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.&lt;/p&gt;
-&lt;h2 id=&#34;changelog&#34;&gt;Changelog&lt;/h2&gt;
-&lt;p&gt;&lt;details open &gt;
-  &lt;summary&gt;&lt;strong&gt;2024-09-13&lt;/strong&gt;&lt;/summary&gt;
-  &lt;p&gt;&lt;strong&gt;Device side:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Merged September 2024 ASB into kernel&lt;/li&gt;
-&lt;li&gt;Fixed occasional media playback issues&lt;/li&gt;
-&lt;li&gt;Fixed USB audio playback&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Source side:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;September 2024 ASB&lt;/li&gt;
-&lt;li&gt;Fixed Play Integrity once again&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;/details&gt;
-
-&lt;details ZgotmplZ &gt;
-  &lt;summary&gt;&lt;strong&gt;2024-08-08&lt;/strong&gt;&lt;/summary&gt;
-  &lt;p&gt;&lt;strong&gt;Device side:&lt;/strong&gt;&lt;/p&gt;
-&lt;ul&gt;
-&lt;li&gt;Merged August 2024 ASB into kernel&lt;/li&gt;
-&lt;li&gt;Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM&lt;/li&gt;
-&lt;/ul&gt;
-&lt;p&gt;&lt;strong&gt;Source side:&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

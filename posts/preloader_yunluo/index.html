@@ -5,38 +5,23 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) | Pranaya Deomani</title>
-<meta name="keywords" content="statixos, yunluo">
+<title>Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it | Pranaya Deomani</title>
+<meta name="keywords" content="preloader, yunluo">
 <meta name="description" content="
 
-StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.
-Changelog
+Getting started
+As we have seen in the past &ldquo;begonia CFW Megathread&rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!
+The same concept of a brick also applies to yunluo devices &ldquo;Example of what a brick looks like&rdquo;.
 
-  2024-09-13
-  Device side:
-
-Merged September 2024 ASB into kernel
-Fixed occasional media playback issues
-Fixed USB audio playback
-
-Source side:
-
-September 2024 ASB
-Fixed Play Integrity once again
+    
+        
+            
+  
 
 
-
-
-
-  2024-08-08
-  Device side:
-
-Merged August 2024 ASB into kernel
-Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM
-
-Source side:">
+        Note">
 <meta name="author" content="Pranaya Deomani">
-<link rel="canonical" href="https://pranaya.dev/posts/statixos-yunluo/">
+<link rel="canonical" href="https://pranaya.dev/posts/preloader_yunluo/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.8d1bb04e4b95f1e8fc2ac7472a04f0a0f80fba8ce42d2ed2990cd0bc527ea0ac.css" integrity="sha256-jRuwTkuV8ej8KsdHKgTwoPgPuozkLS7SmQzQvFJ&#43;oKw=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://pranaya.dev/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://pranaya.dev/favicon-16x16.png">
@@ -45,7 +30,7 @@ Source side:">
 <link rel="mask-icon" href="https://pranaya.dev/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="https://pranaya.dev/posts/statixos-yunluo/">
+<link rel="alternate" hreflang="en" href="https://pranaya.dev/posts/preloader_yunluo/">
 <noscript>
     <style>
         #theme-toggle,
@@ -82,70 +67,40 @@ Source side:">
         }
 
     </style>
-</noscript><meta property="og:title" content="StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)" />
+</noscript><meta property="og:title" content="Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it" />
 <meta property="og:description" content="
 
-StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.
-Changelog
+Getting started
+As we have seen in the past &ldquo;begonia CFW Megathread&rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!
+The same concept of a brick also applies to yunluo devices &ldquo;Example of what a brick looks like&rdquo;.
 
-  2024-09-13
-  Device side:
-
-Merged September 2024 ASB into kernel
-Fixed occasional media playback issues
-Fixed USB audio playback
-
-Source side:
-
-September 2024 ASB
-Fixed Play Integrity once again
+    
+        
+            
+  
 
 
-
-
-
-  2024-08-08
-  Device side:
-
-Merged August 2024 ASB into kernel
-Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM
-
-Source side:" />
+        Note" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://pranaya.dev/posts/statixos-yunluo/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2024-09-13T09:00:00+05:30" />
-<meta property="article:modified_time" content="2024-09-13T09:00:00+05:30" />
+<meta property="og:url" content="https://pranaya.dev/posts/preloader_yunluo/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2024-10-16T18:05:18+05:30" />
+<meta property="article:modified_time" content="2024-10-16T18:05:18+05:30" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)"/>
+<meta name="twitter:title" content="Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it"/>
 <meta name="twitter:description" content="
 
-StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.
-Changelog
+Getting started
+As we have seen in the past &ldquo;begonia CFW Megathread&rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!
+The same concept of a brick also applies to yunluo devices &ldquo;Example of what a brick looks like&rdquo;.
 
-  2024-09-13
-  Device side:
-
-Merged September 2024 ASB into kernel
-Fixed occasional media playback issues
-Fixed USB audio playback
-
-Source side:
-
-September 2024 ASB
-Fixed Play Integrity once again
+    
+        
+            
+  
 
 
-
-
-
-  2024-08-08
-  Device side:
-
-Merged August 2024 ASB into kernel
-Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM
-
-Source side:"/>
+        Note"/>
 
 
 <script type="application/ld+json">
@@ -162,8 +117,8 @@ Source side:"/>
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)",
-      "item": "https://pranaya.dev/posts/statixos-yunluo/"
+      "name": "Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it",
+      "item": "https://pranaya.dev/posts/preloader_yunluo/"
     }
   ]
 }
@@ -172,24 +127,24 @@ Source side:"/>
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)",
-  "name": "StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)",
-  "description": " StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.\nChangelog 2024-09-13 Device side:\nMerged September 2024 ASB into kernel Fixed occasional media playback issues Fixed USB audio playback Source side:\nSeptember 2024 ASB Fixed Play Integrity once again 2024-08-08 Device side:\nMerged August 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM Source side:\n",
+  "headline": "Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it",
+  "name": "Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it",
+  "description": " Getting started As we have seen in the past \u0026ldquo;begonia CFW Megathread\u0026rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!\nThe same concept of a brick also applies to yunluo devices \u0026ldquo;Example of what a brick looks like\u0026rdquo;. Note\n",
   "keywords": [
-    "statixos", "yunluo"
+    "preloader", "yunluo"
   ],
-  "articleBody": " StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.\nChangelog 2024-09-13 Device side:\nMerged September 2024 ASB into kernel Fixed occasional media playback issues Fixed USB audio playback Source side:\nSeptember 2024 ASB Fixed Play Integrity once again 2024-08-08 Device side:\nMerged August 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM Source side:\nAugust 2024 ASB Enabled redesigned Android 15 status bar icons Added smartspace to lock screen Added Face Unlock with ParanoidSense Make Circle to Search toggleable Make most of the user apps cloneable Optimize art, bionic and skia for performance Fixed Google account profile picture in Settings 2024-07-22 Device side:\nMerged July 2024 ASB into kernel Update proprietary blobs and firmware to OS1.0.3.0.ULYMIXM Fixed crackling audio output from speakers Fixed brightness curve and adaptive brightness Considerably improve active and idle battery drain Improved RAM management Enabled Android Verified Boot (AVB) Rework status bar paddings Optimise apps for bigger screens Disable unutilised system blurs to further improve performance Source side:\nAndroid 14 QPR3/July 2024 ASB New revamped boot animation and wallpaper Enabled redesigned Android 15 volume panel Bring back Pixel Live Wallpapers Replaced Aperture with Google Camera Fixed colours section in ‘Wallpaper and style’ Fixed action buttons in Screen record notification Enhanced compatibility with Apple’s AirPods Note: A clean installation is required for this release due to migration of release keys.\n2024-05-10 Merged May 2024 ASB into ROM and kernel Update GMS from Pixel Tablet Spoof as Pixel Tablet instead of Pixel 8 Pro Update proprietary blobs and firmware to OS1.0.2.0.ULYMIXM Fixed Bluetooth Audio issues Fixed refresh rate drop during media playback Allowed rotation in Setup Wizard to complete gesture tutorial Signed build with release-keys 2024-04-29 Initial release Previews Installation instructions First-time installation Reboot to bootloader using Volume Down + Power or adb reboot bootloader. Flash boot, dtbo and vendor_boot images in bootloader mode: 1 2 3 fastboot flash boot boot.img fastboot flash dtbo dtbo.img fastboot flash vendor_boot vendor_boot.img Reboot to recovery using Volume Up + Power. Choose Factory reset -\u003e Format data/factory reset option in recovery using volume and power keys and continue with the formatting process. Return to the main menu. Choose Apply update -\u003e Apply from ADB option and sideload the StatiXOS .zip package: 1 adb sideload filename.zip Return to the main menu and choose Reboot system now once the installation is completed. Installing subsequent updates Reboot to recovery using Volume Up + Power or fastboot reboot recovery. Choose Apply update -\u003e Apply from ADB option and sideload the StatiXOS .zip package: 1 adb sideload filename.zip Return to the main menu and choose Reboot system now once the installation is completed. Tip\nAfter the package is installed, recovery will inform you that reboot to recovery is required to install add-ons. In case you want to do that, please select “Yes”, otherwise “No”.\nTip\nNormally, adb will report Total xfer: 1.00x, but in some cases, even if the process succeeds the output will stop at 47% and report adb: failed to read command: Success. In some cases it will report adb: failed to read command: No error or adb: failed to read command: Undefined error: 0 which is also fine.\nDownloads StatiXOS | Mirror\nBuy me a coffee! UPI: pranaya@indie PayPal: PayPal.Me/pranayadmn ",
-  "wordCount" : "553",
+  "articleBody": " Getting started As we have seen in the past “begonia CFW Megathread”, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!\nThe same concept of a brick also applies to yunluo devices “Example of what a brick looks like”. Note\nIf you are already in this state and have not flashed the engineering preloader image, the only way out is to visit an authorised Xiaomi Center.\nSo what do we do to avoid a brick? It’s not that easy to avoid bricking these devices. Just follow the instructions and don’t do anything stupid.\nHowever, by flashing the engineering preloader image, you can save yourself a lot of headaches.\nWhy do we need to flash the engineering preloader image and how it works? Usually, MTK devices follow this boot pattern:\n1 Boot ROM -\u003e preloader -\u003e Little Kernel (lk) -\u003e kernel With MIUI preloader, nothing unsual happens, however, after flashing the engineering preloader image, (with every boot) the preloader exposes an insecure VCOM port with SLA (Serial Link Authentication) and DAA (Download Agent Authentication) checks disabled, allowing you to flash images with SP Flash tool V6 without worrying about having an authorised Mi account.\nIf you use the MIUI preloader image, the only “download” mode you can access in case of a brick is Boot ROM (which is burnt into the SoC). This requires an authorised Mi account to access and write partitions from it.\nThere is currently no way to bypass these checks on yunluo, as Boot ROM has a bunch of checks to prevent unauthorised attacks.\nCan I revert to the MIUI preloader image? Of course, at your own risk :P.\nFlashing process Download the correct preloader image: Link SHA-1 MIUI-based ROMs (preloader_yunluo) d56c518947d3763ec9b25e77644da8d3d7db7279 Reboot your device into fastboot mode by holding down the appropriate key combination. Open a ADB \u0026 Fastboot tools window on your PC and flash the preloader image you downloaded before. 1 2 3 # Mention the path of the image before running the commands # Ex: fastboot flash preloader_ab /home/pranaya/yunluo/preloader_yunluo.bin $ fastboot flash preloader_ab \u003cpreloader_yunluo\u003e.bin Reboot your device by holding the Power button. You are good to go :D. How to unbrick (with the engineering preloader image) So you have managed to brick your device and you have previously flashed the engineering preloader image? You can easily restore it by following these simple steps: Warning\nAvoid using the Firmware Upgrade option, it will lock the bootloader.\nNever use the Format all + Download option, it will ERASE the whole device UFS (including IMEIs, MAC addresses, and more). Always keep a backup of your partitions.\nDownload the Fastboot ROM of your choice: Version Download HyperOS xmfirmwareupdater.com MIUI xmfirmwareupdater.com Download the custom yunluo_MT6789_Android_scatter.xml file: Link SHA-1 HyperOS 819019a5d561d9e1310bc40d1d9c564b1b8c9783 MIUI 5db7d287dc1f7f01a2a574d1a2db4c8d133208a6 Download and extract SP Flash tool V6. Download and install MTK Driver for Windows. Extract the Fastboot ROM and replace the file images/MT6789_Android_scatter.xml with yunluo_MT6789_Android_scatter.xml. Turn off your device. Open SP Flash tool V6. Load the Fastboot ROM of your choice by pressing the Download XML button and selecting the images/download_agent/flash.xml file. Press the Download button. Connect the device to your PC (if it doesn’t detect, press and hold the Power button for 8-10 seconds). The flash process should start. ",
+  "wordCount" : "543",
   "inLanguage": "en",
-  "datePublished": "2024-09-13T09:00:00+05:30",
-  "dateModified": "2024-09-13T09:00:00+05:30",
+  "datePublished": "2024-10-16T18:05:18+05:30",
+  "dateModified": "2024-10-16T18:05:18+05:30",
   "author":{
     "@type": "Person",
     "name": "Pranaya Deomani"
   },
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://pranaya.dev/posts/statixos-yunluo/"
+    "@id": "https://pranaya.dev/posts/preloader_yunluo/"
   },
   "publisher": {
     "@type": "Organization",
@@ -268,9 +223,9 @@ Source side:"/>
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://pranaya.dev/">Home</a>&nbsp;»&nbsp;<a href="https://pranaya.dev/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)
+      Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it
     </h1>
-    <div class="post-meta"><span title='2024-09-13 09:00:00 +0530 IST'>September 13, 2024</span>&nbsp;·&nbsp;Pranaya Deomani
+    <div class="post-meta"><span title='2024-10-16 18:05:18 +0530 IST'>October 16, 2024</span>&nbsp;·&nbsp;Pranaya Deomani
 
 </div>
   </header> <div class="toc">
@@ -281,171 +236,31 @@ Source side:"/>
 
         <div class="inner"><ul>
                 <li>
-                    <a href="#changelog" aria-label="Changelog">Changelog</a></li>
+                    <a href="#getting-started" aria-label="Getting started">Getting started</a><ul>
+                        
                 <li>
-                    <a href="#previews" aria-label="Previews">Previews</a></li>
+                    <a href="#so-what-do-we-do-to-avoid-a-brick" aria-label="So what do we do to avoid a brick?">So what do we do to avoid a brick?</a></li>
                 <li>
-                    <a href="#installation-instructions" aria-label="Installation instructions">Installation instructions</a></li>
+                    <a href="#why-do-we-need-to-flash-the-engineering-preloader-image-and-how-it-works" aria-label="Why do we need to flash the engineering preloader image and how it works?">Why do we need to flash the engineering preloader image and how it works?</a></li>
                 <li>
-                    <a href="#downloads" aria-label="Downloads">Downloads</a></li>
+                    <a href="#can-i-revert-to-the-miui-preloader-image" aria-label="Can I revert to the MIUI preloader image?">Can I revert to the MIUI preloader image?</a></li></ul>
+                </li>
                 <li>
-                    <a href="#buy-me-a-coffee" aria-label="Buy me a coffee!">Buy me a coffee!</a>
+                    <a href="#flashing-process" aria-label="Flashing process">Flashing process</a></li>
+                <li>
+                    <a href="#how-to-unbrick-with-the-engineering-preloader-image" aria-label="How to unbrick (with the engineering preloader image)">How to unbrick (with the engineering preloader image)</a>
                 </li>
             </ul>
         </div>
     </details>
 </div>
 
-  <div class="post-content"><p><img loading="lazy" src="https://raw.githubusercontent.com/sourajitk/STX-Logo/main/stx-2023.png" alt="StatiXOS"  />
-
-StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal while providing quality of life improvements and up to date security patches.</p>
-<h2 id="changelog">Changelog<a hidden class="anchor" aria-hidden="true" href="#changelog">#</a></h2>
-<p><details open >
-  <summary><strong>2024-09-13</strong></summary>
-  <p><strong>Device side:</strong></p>
-<ul>
-<li>Merged September 2024 ASB into kernel</li>
-<li>Fixed occasional media playback issues</li>
-<li>Fixed USB audio playback</li>
-</ul>
-<p><strong>Source side:</strong></p>
-<ul>
-<li>September 2024 ASB</li>
-<li>Fixed Play Integrity once again</li>
-</ul>
-
-</details>
-
-<details ZgotmplZ >
-  <summary><strong>2024-08-08</strong></summary>
-  <p><strong>Device side:</strong></p>
-<ul>
-<li>Merged August 2024 ASB into kernel</li>
-<li>Update proprietary blobs and firmware to OS1.0.4.0.ULYMIXM</li>
-</ul>
-<p><strong>Source side:</strong></p>
-<ul>
-<li>August 2024 ASB</li>
-<li>Enabled redesigned Android 15 status bar icons</li>
-<li>Added smartspace to lock screen</li>
-<li>Added Face Unlock with ParanoidSense</li>
-<li>Make Circle to Search toggleable</li>
-<li>Make most of the user apps cloneable</li>
-<li>Optimize art, bionic and skia for performance</li>
-<li>Fixed Google account profile picture in Settings</li>
-</ul>
-
-</details>
-
-<details ZgotmplZ >
-  <summary><strong>2024-07-22</strong></summary>
-  <p><strong>Device side:</strong></p>
-<ul>
-<li>Merged July 2024 ASB into kernel</li>
-<li>Update proprietary blobs and firmware to OS1.0.3.0.ULYMIXM</li>
-<li>Fixed crackling audio output from speakers</li>
-<li>Fixed brightness curve and adaptive brightness</li>
-<li>Considerably improve active and idle battery drain</li>
-<li>Improved RAM management</li>
-<li>Enabled Android Verified Boot (AVB)</li>
-<li>Rework status bar paddings</li>
-<li>Optimise apps for bigger screens</li>
-<li>Disable unutilised system blurs to further improve performance</li>
-</ul>
-<p><strong>Source side:</strong></p>
-<ul>
-<li>Android 14 QPR3/July 2024 ASB</li>
-<li>New revamped boot animation and wallpaper</li>
-<li>Enabled redesigned Android 15 volume panel</li>
-<li>Bring back Pixel Live Wallpapers</li>
-<li>Replaced Aperture with Google Camera</li>
-<li>Fixed colours section in &lsquo;Wallpaper and style&rsquo;</li>
-<li>Fixed action buttons in Screen record notification</li>
-<li>Enhanced compatibility with Apple&rsquo;s AirPods</li>
-</ul>
-<p><strong>Note:</strong> A clean installation is required for this release due to migration of release keys.</p>
-
-</details>
-
-<details ZgotmplZ >
-  <summary><strong>2024-05-10</strong></summary>
-  <ul>
-<li>Merged May 2024 ASB into ROM and kernel</li>
-<li>Update GMS from Pixel Tablet</li>
-<li>Spoof as Pixel Tablet instead of Pixel 8 Pro</li>
-<li>Update proprietary blobs and firmware to OS1.0.2.0.ULYMIXM</li>
-<li>Fixed Bluetooth Audio issues</li>
-<li>Fixed refresh rate drop during media playback</li>
-<li>Allowed rotation in Setup Wizard to complete gesture tutorial</li>
-<li>Signed build with release-keys</li>
-</ul>
-
-</details>
-
-<details ZgotmplZ >
-  <summary><strong>2024-04-29</strong></summary>
-  <ul>
-<li>Initial release</li>
-</ul>
-
-</details>
-</p>
-<h2 id="previews">Previews<a hidden class="anchor" aria-hidden="true" href="#previews">#</a></h2>
-<p><img loading="lazy" src="/preview.jpg" alt="Preview"  />
-</p>
-<h2 id="installation-instructions">Installation instructions<a hidden class="anchor" aria-hidden="true" href="#installation-instructions">#</a></h2>
-<ul>
-<li><strong>First-time installation</strong>
-<ul>
-<li>Reboot to bootloader using <code>Volume Down</code> + <code>Power</code> or <code>adb reboot bootloader</code>.</li>
-<li>Flash <code>boot</code>, <code>dtbo</code> and <code>vendor_boot</code> images in bootloader mode:
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-fallback" data-lang="fallback"><span class="line"><span class="cl">fastboot flash boot boot.img
-</span></span><span class="line"><span class="cl">fastboot flash dtbo dtbo.img
-</span></span><span class="line"><span class="cl">fastboot flash vendor_boot vendor_boot.img
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>Reboot to recovery using <code>Volume Up</code> + <code>Power</code>.</li>
-<li>Choose <code>Factory reset</code> -&gt; <code>Format data/factory reset</code> option in recovery using volume and power keys and continue with the formatting process.</li>
-<li>Return to the main menu.</li>
-<li>Choose <code>Apply update</code> -&gt; <code>Apply from ADB</code> option and sideload the StatiXOS <code>.zip</code> package:
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">adb</span> <span class="n">sideload</span> <span class="n">filename</span><span class="o">.</span><span class="n">zip</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>Return to the main menu and choose <code>Reboot system now</code> once the installation is completed.</li>
-</ul>
-</li>
-<li><strong>Installing subsequent updates</strong>
-<ul>
-<li>Reboot to recovery using <code>Volume Up</code> + <code>Power</code> or <code>fastboot reboot recovery</code>.</li>
-<li>Choose <code>Apply update</code> -&gt; <code>Apply from ADB</code> option and sideload the StatiXOS <code>.zip</code> package:
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre tabindex="0" class="chroma"><code><span class="lnt">1
-</span></code></pre></td>
-<td class="lntd">
-<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">adb</span> <span class="n">sideload</span> <span class="n">filename</span><span class="o">.</span><span class="n">zip</span>
-</span></span></code></pre></td></tr></table>
-</div>
-</div></li>
-<li>Return to the main menu and choose <code>Reboot system now</code> once the installation is completed.</li>
-</ul>
-</li>
-</ul>
-<p><style type="text/css">
+  <div class="post-content"><!-- raw HTML omitted -->
+<!-- raw HTML omitted -->
+<h2 id="getting-started">Getting started<a hidden class="anchor" aria-hidden="true" href="#getting-started">#</a></h2>
+<p>As we have seen in the past &ldquo;<a href="https://xdaforums.com/t/guide-info-psa-redmi-note-8-pro-megathread-cfw.4056527"><code>begonia</code> CFW Megathread</a>&rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!</p>
+<p>The same concept of a brick also applies to <code>yunluo</code> devices &ldquo;<a href="https://imgur.com/a/zMw2udb">Example of what a brick looks like</a>&rdquo;.
+<style type="text/css">
      
     .notice {
         --title-color: #fff;
@@ -559,30 +374,132 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         top: .125em;
         position: relative;
     }
-</style><div class="notice tip" >
+</style><div class="notice note" >
     <p class="notice-title">
         <span class="icon-notice baseline">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="300.5 134 300 300">
-  <path d="M551.281 252.36c0-3.32-1.172-6.641-3.515-8.985l-17.774-17.578c-2.344-2.344-5.469-3.711-8.789-3.711-3.32 0-6.445 1.367-8.789 3.71l-79.687 79.493-44.141-44.14c-2.344-2.344-5.469-3.712-8.79-3.712-3.32 0-6.444 1.368-8.788 3.711l-17.774 17.579c-2.343 2.343-3.515 5.664-3.515 8.984 0 3.32 1.172 6.445 3.515 8.789l70.704 70.703c2.343 2.344 5.664 3.711 8.789 3.711 3.32 0 6.64-1.367 8.984-3.71l106.055-106.056c2.343-2.343 3.515-5.468 3.515-8.789ZM600.5 284c0 82.813-67.188 150-150 150-82.813 0-150-67.188-150-150 0-82.813 67.188-150 150-150 82.813 0 150 67.188 150 150Z"/>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 128 300 300">
+  <path d="M150 128c82.813 0 150 67.188 150 150 0 82.813-67.188 150-150 150C67.187 428 0 360.812 0 278c0-82.813 67.188-150 150-150Zm25 243.555v-37.11c0-3.515-2.734-6.445-6.055-6.445h-37.5c-3.515 0-6.445 2.93-6.445 6.445v37.11c0 3.515 2.93 6.445 6.445 6.445h37.5c3.32 0 6.055-2.93 6.055-6.445Zm-.39-67.188 3.515-121.289c0-1.367-.586-2.734-1.953-3.516-1.172-.976-2.93-1.562-4.688-1.562h-42.968c-1.758 0-3.516.586-4.688 1.563-1.367.78-1.953 2.148-1.953 3.515l3.32 121.29c0 2.734 2.93 4.882 6.64 4.882h36.134c3.515 0 6.445-2.148 6.64-4.883Z"/>
 </svg>
 
-        </span>Tip</p><p>After the package is installed, recovery will inform you that reboot to recovery is required to install add-ons. In case you want to do that, please select “Yes”, otherwise “No”.</p></div>
-
-<div class="notice tip" >
-    <p class="notice-title">
-        <span class="icon-notice baseline">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="300.5 134 300 300">
-  <path d="M551.281 252.36c0-3.32-1.172-6.641-3.515-8.985l-17.774-17.578c-2.344-2.344-5.469-3.711-8.789-3.711-3.32 0-6.445 1.367-8.789 3.71l-79.687 79.493-44.141-44.14c-2.344-2.344-5.469-3.712-8.79-3.712-3.32 0-6.444 1.368-8.788 3.711l-17.774 17.579c-2.343 2.343-3.515 5.664-3.515 8.984 0 3.32 1.172 6.445 3.515 8.789l70.704 70.703c2.343 2.344 5.664 3.711 8.789 3.711 3.32 0 6.64-1.367 8.984-3.71l106.055-106.056c2.343-2.343 3.515-5.468 3.515-8.789ZM600.5 284c0 82.813-67.188 150-150 150-82.813 0-150-67.188-150-150 0-82.813 67.188-150 150-150 82.813 0 150 67.188 150 150Z"/>
-</svg>
-
-        </span>Tip</p><p>Normally, adb will report <code>Total xfer: 1.00x</code>, but in some cases, even if the process succeeds the output will stop at 47% and report <code>adb: failed to read command: Success</code>. In some cases it will report <code>adb: failed to read command: No error</code> or <code>adb: failed to read command: Undefined error: 0</code> which is also fine.</p></div>
+        </span>Note</p><p>If you are already in this state and have not flashed the engineering <code>preloader</code> image, the only way out is to visit an authorised Xiaomi Center.</p></div>
 </p>
-<h2 id="downloads">Downloads<a hidden class="anchor" aria-hidden="true" href="#downloads">#</a></h2>
-<p><a href="https://downloads.statixos.com/14-UPSIDEDOWNCAKE/yunluo">StatiXOS</a> | <a href="https://dl.pranaya.dev/StatiXOS/yunluo/20240913">Mirror</a></p>
-<h2 id="buy-me-a-coffee">Buy me a coffee!<a hidden class="anchor" aria-hidden="true" href="#buy-me-a-coffee">#</a></h2>
+<h3 id="so-what-do-we-do-to-avoid-a-brick">So what do we do to avoid a brick?<a hidden class="anchor" aria-hidden="true" href="#so-what-do-we-do-to-avoid-a-brick">#</a></h3>
+<p>It&rsquo;s not that easy to avoid bricking these devices. Just follow the instructions and don&rsquo;t do anything stupid.</p>
+<p>However, by flashing the engineering <code>preloader</code> image, you can save yourself a lot of headaches.</p>
+<h3 id="why-do-we-need-to-flash-the-engineering-preloader-image-and-how-it-works">Why do we need to flash the engineering <code>preloader</code> image and how it works?<a hidden class="anchor" aria-hidden="true" href="#why-do-we-need-to-flash-the-engineering-preloader-image-and-how-it-works">#</a></h3>
+<p>Usually, MTK devices follow this boot pattern:</p>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="n">Boot</span> <span class="n">ROM</span> <span class="o">-&gt;</span> <span class="n">preloader</span> <span class="o">-&gt;</span> <span class="n">Little</span> <span class="n">Kernel</span> <span class="p">(</span><span class="n">lk</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="n">kernel</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><p>With MIUI <code>preloader</code>, nothing unsual happens, however, after flashing the engineering <code>preloader</code> image, (with every boot) the <code>preloader</code> exposes an insecure <code>VCOM</code> port with <code>SLA</code> (Serial Link Authentication) and <code>DAA</code> (Download Agent Authentication) checks disabled, allowing you to flash images with <code>SP Flash tool V6</code> without worrying about having an authorised Mi account.</p>
+<p>If you use the MIUI <code>preloader</code> image, the only &ldquo;download&rdquo; mode you can access in case of a brick is <code>Boot ROM</code> (which is burnt into the SoC). This requires an authorised Mi account to access and write partitions from it.</p>
+<p>There is currently no way to bypass these checks on <code>yunluo</code>, as <code>Boot ROM</code> has a bunch of checks to prevent unauthorised attacks.</p>
+<h3 id="can-i-revert-to-the-miui-preloader-image">Can I revert to the MIUI <code>preloader</code> image?<a hidden class="anchor" aria-hidden="true" href="#can-i-revert-to-the-miui-preloader-image">#</a></h3>
+<p>Of course, at your own risk :P.</p>
+<h2 id="flashing-process">Flashing process<a hidden class="anchor" aria-hidden="true" href="#flashing-process">#</a></h2>
 <ul>
-<li><strong>UPI:</strong> <code>pranaya@indie</code></li>
-<li><strong>PayPal:</strong> <a href="https://paypal.me/pranayadmn">PayPal.Me/pranayadmn</a></li>
+<li>Download the correct <code>preloader</code> image:
+<table>
+  <thead>
+      <tr>
+          <th>Link</th>
+          <th>SHA-1</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://dl.pranaya.dev/api/raw/?path=/Misc/preloader_yunluo.bin">MIUI-based ROMs (<code>preloader_yunluo</code>)</a></td>
+          <td><code>d56c518947d3763ec9b25e77644da8d3d7db7279</code></td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>Reboot your device into fastboot mode by holding down the appropriate key combination.</li>
+<li>Open a <code>ADB &amp; Fastboot tools</code> window on your PC and flash the <code>preloader</code> image you downloaded before.</li>
+</ul>
+<div class="highlight"><div class="chroma">
+<table class="lntable"><tr><td class="lntd">
+<pre tabindex="0" class="chroma"><code><span class="lnt">1
+</span><span class="lnt">2
+</span><span class="lnt">3
+</span></code></pre></td>
+<td class="lntd">
+<pre tabindex="0" class="chroma"><code class="language-gdscript3" data-lang="gdscript3"><span class="line"><span class="cl"><span class="c1"># Mention the path of the image before running the commands</span>
+</span></span><span class="line"><span class="cl"><span class="c1"># Ex: fastboot flash preloader_ab /home/pranaya/yunluo/preloader_yunluo.bin</span>
+</span></span><span class="line"><span class="cl"><span class="o">$</span> <span class="n">fastboot</span> <span class="n">flash</span> <span class="n">preloader_ab</span> <span class="o">&lt;</span><span class="n">preloader_yunluo</span><span class="o">&gt;.</span><span class="n">bin</span>
+</span></span></code></pre></td></tr></table>
+</div>
+</div><ul>
+<li>Reboot your device by holding the <code>Power</code> button.</li>
+<li>You are good to go :D.</li>
+</ul>
+<h2 id="how-to-unbrick-with-the-engineering-preloader-image">How to unbrick (with the engineering <code>preloader</code> image)<a hidden class="anchor" aria-hidden="true" href="#how-to-unbrick-with-the-engineering-preloader-image">#</a></h2>
+<p>So you have managed to brick your device and you have previously flashed the engineering <code>preloader</code> image? You can easily restore it by following these simple steps:
+<div class="notice warning" >
+    <p class="notice-title">
+        <span class="icon-notice baseline">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="126 76.5 300 300">
+  <path d="M297.431 324.397v-34.255c0-3.245-2.344-5.95-5.358-5.95h-32.146c-3.014 0-5.358 2.705-5.358 5.95v34.255c0 3.245 2.344 5.95 5.358 5.95h32.146c3.014 0 5.358-2.705 5.358-5.95Zm-.335-67.428 3.014-82.753c0-1.081-.502-2.524-1.674-3.425-1.005-.902-2.512-1.983-4.019-1.983h-36.834c-1.507 0-3.014 1.081-4.019 1.983-1.172.901-1.674 2.704-1.674 3.786l2.846 82.392c0 2.344 2.512 4.146 5.693 4.146h30.975c3.013 0 5.525-1.803 5.692-4.146Zm-2.344-168.39L423.34 342.425c3.683 7.032 3.516 15.686-.335 22.717-3.85 7.031-10.883 11.358-18.417 11.358H147.413c-7.534 0-14.566-4.327-18.417-11.358-3.85-7.031-4.018-15.685-.335-22.716L257.248 88.578C260.93 81.188 268.13 76.5 276 76.5c7.87 0 15.069 4.688 18.752 12.08Z"/>
+</svg>
+
+        </span>Warning</p><p>Avoid using the <code>Firmware Upgrade</code> option, it will lock the bootloader.</p>
+<p>Never use the <code>Format all + Download</code> option, it will <strong>ERASE</strong> the whole device UFS (including IMEIs, MAC addresses, and more). <strong>Always keep a backup of your partitions.</strong></p></div>
+</p>
+<ul>
+<li>Download the Fastboot ROM of your choice:
+<table>
+  <thead>
+      <tr>
+          <th>Version</th>
+          <th>Download</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>HyperOS</td>
+          <td><a href="https://xmfirmwareupdater.com/hyperos/yunluo">xmfirmwareupdater.com</a></td>
+      </tr>
+      <tr>
+          <td>MIUI</td>
+          <td><a href="https://xmfirmwareupdater.com/archive/miui/yunluo">xmfirmwareupdater.com</a></td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>Download the custom <code>yunluo_MT6789_Android_scatter.xml</code> file:
+<table>
+  <thead>
+      <tr>
+          <th>Link</th>
+          <th>SHA-1</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><a href="https://dl.pranaya.dev/api/name/yunluo_MT6789_Android_scatter.xml?path=/Misc/HyperOS_yunluo_MT6789_Android_scatter.xml">HyperOS</a></td>
+          <td><code>819019a5d561d9e1310bc40d1d9c564b1b8c9783</code></td>
+      </tr>
+      <tr>
+          <td><a href="https://dl.pranaya.dev/api/name/yunluo_MT6789_Android_scatter.xml?path=/Misc/MIUI_yunluo_MT6789_Android_scatter.xml">MIUI</a></td>
+          <td><code>5db7d287dc1f7f01a2a574d1a2db4c8d133208a6</code></td>
+      </tr>
+  </tbody>
+</table>
+</li>
+<li>Download and extract <a href="https://spflashtools.com/v6"><code>SP Flash tool V6</code></a>.</li>
+<li>Download and install <a href="https://mtkdriver.com"><code>MTK Driver for Windows</code></a>.</li>
+<li>Extract the Fastboot ROM and replace the file <code>images/MT6789_Android_scatter.xml</code> with <code>yunluo_MT6789_Android_scatter.xml</code>.</li>
+<li>Turn off your device.</li>
+<li>Open <code>SP Flash tool V6</code>.</li>
+<li>Load the Fastboot ROM of your choice by pressing the <code>Download XML</code> button and selecting the <code>images/download_agent/flash.xml</code> file.</li>
+<li>Press the Download button.</li>
+<li>Connect the device to your PC (if it doesn&rsquo;t detect, press and hold the <code>Power</code> button for 8-10 seconds).</li>
+<li>The flash process should start.</li>
 </ul>
 
 
@@ -590,22 +507,22 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://pranaya.dev/tags/statixos/">Statixos</a></li>
+      <li><a href="https://pranaya.dev/tags/preloader/">Preloader</a></li>
       <li><a href="https://pranaya.dev/tags/yunluo/">Yunluo</a></li>
     </ul>
 <nav class="paginav">
-  <a class="prev" href="https://pranaya.dev/posts/preloader_yunluo/">
-    <span class="title">« Prev</span>
+  <a class="next" href="https://pranaya.dev/posts/statixos-yunluo/">
+    <span class="title">Next »</span>
     <br>
-    <span>Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it</span>
+    <span>StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo)</span>
   </a>
 </nav>
 
 
 <ul class="share-buttons">
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on x"
-            href="https://x.com/intent/tweet/?text=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f&amp;hashtags=statixos%2cyunluo">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on x"
+            href="https://x.com/intent/tweet/?text=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f&amp;hashtags=preloader%2cyunluo">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M512 62.554 L 512 449.446 C 512 483.97 483.97 512 449.446 512 L 62.554 512 C 28.03 512 0 483.97 0 449.446 L 0 62.554 C 0 28.03 28.029 0 62.554 0 L 449.446 0 C 483.971 0 512 28.03 512 62.554 Z M 269.951 190.75 L 182.567 75.216 L 56 75.216 L 207.216 272.95 L 63.9 436.783 L 125.266 436.783 L 235.9 310.383 L 332.567 436.783 L 456 436.783 L 298.367 228.367 L 432.367 75.216 L 371.033 75.216 Z M 127.633 110 L 164.101 110 L 383.481 400.065 L 349.5 400.065 Z" />
@@ -613,8 +530,8 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on linkedin"
-            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f&amp;title=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29&amp;summary=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29&amp;source=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on linkedin"
+            href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f&amp;title=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it&amp;summary=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it&amp;source=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-288.985,423.278l0,-225.717l-75.04,0l0,225.717l75.04,0Zm270.539,0l0,-129.439c0,-69.333 -37.018,-101.586 -86.381,-101.586c-39.804,0 -57.634,21.891 -67.617,37.266l0,-31.958l-75.021,0c0.995,21.181 0,225.717 0,225.717l75.02,0l0,-126.056c0,-6.748 0.486,-13.492 2.474,-18.315c5.414,-13.475 17.767,-27.434 38.494,-27.434c27.135,0 38.007,20.707 38.007,51.037l0,120.768l75.024,0Zm-307.552,-334.556c-25.674,0 -42.448,16.879 -42.448,39.002c0,21.658 16.264,39.002 41.455,39.002l0.484,0c26.165,0 42.452,-17.344 42.452,-39.002c-0.485,-22.092 -16.241,-38.954 -41.943,-39.002Z" />
@@ -622,8 +539,8 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on reddit"
-            href="https://reddit.com/submit?url=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f&title=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on reddit"
+            href="https://reddit.com/submit?url=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f&title=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-3.446,265.638c0,-22.964 -18.616,-41.58 -41.58,-41.58c-11.211,0 -21.361,4.457 -28.841,11.666c-28.424,-20.508 -67.586,-33.757 -111.204,-35.278l18.941,-89.121l61.884,13.157c0.756,15.734 13.642,28.29 29.56,28.29c16.407,0 29.706,-13.299 29.706,-29.701c0,-16.403 -13.299,-29.702 -29.706,-29.702c-11.666,0 -21.657,6.792 -26.515,16.578l-69.105,-14.69c-1.922,-0.418 -3.939,-0.042 -5.585,1.036c-1.658,1.073 -2.811,2.761 -3.224,4.686l-21.152,99.438c-44.258,1.228 -84.046,14.494 -112.837,35.232c-7.468,-7.164 -17.589,-11.591 -28.757,-11.591c-22.965,0 -41.585,18.616 -41.585,41.58c0,16.896 10.095,31.41 24.568,37.918c-0.639,4.135 -0.99,8.328 -0.99,12.576c0,63.977 74.469,115.836 166.33,115.836c91.861,0 166.334,-51.859 166.334,-115.836c0,-4.218 -0.347,-8.387 -0.977,-12.493c14.564,-6.47 24.735,-21.034 24.735,-38.001Zm-119.474,108.193c-20.27,20.241 -59.115,21.816 -70.534,21.816c-11.428,0 -50.277,-1.575 -70.522,-21.82c-3.007,-3.008 -3.007,-7.882 0,-10.889c3.003,-2.999 7.882,-3.003 10.885,0c12.777,12.781 40.11,17.317 59.637,17.317c19.522,0 46.86,-4.536 59.657,-17.321c3.016,-2.999 7.886,-2.995 10.885,0.008c3.008,3.011 3.003,7.882 -0.008,10.889Zm-5.23,-48.781c-16.373,0 -29.701,-13.324 -29.701,-29.698c0,-16.381 13.328,-29.714 29.701,-29.714c16.378,0 29.706,13.333 29.706,29.714c0,16.374 -13.328,29.698 -29.706,29.698Zm-160.386,-29.702c0,-16.381 13.328,-29.71 29.714,-29.71c16.369,0 29.689,13.329 29.689,29.71c0,16.373 -13.32,29.693 -29.689,29.693c-16.386,0 -29.714,-13.32 -29.714,-29.693Z" />
@@ -631,8 +548,8 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on facebook"
-            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on facebook"
+            href="https://facebook.com/sharer/sharer.php?u=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-106.468,0l0,-192.915l66.6,0l12.672,-82.621l-79.272,0l0,-53.617c0,-22.603 11.073,-44.636 46.58,-44.636l36.042,0l0,-70.34c0,0 -32.71,-5.582 -63.982,-5.582c-65.288,0 -107.96,39.569 -107.96,111.204l0,62.971l-72.573,0l0,82.621l72.573,0l0,192.915l-191.104,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Z" />
@@ -640,8 +557,8 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on whatsapp"
-            href="https://api.whatsapp.com/send?text=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20-%20https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on whatsapp"
+            href="https://api.whatsapp.com/send?text=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it%20-%20https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f">
             <svg version="1.1" viewBox="0 0 512 512" xml:space="preserve" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M449.446,0c34.525,0 62.554,28.03 62.554,62.554l0,386.892c0,34.524 -28.03,62.554 -62.554,62.554l-386.892,0c-34.524,0 -62.554,-28.03 -62.554,-62.554l0,-386.892c0,-34.524 28.029,-62.554 62.554,-62.554l386.892,0Zm-58.673,127.703c-33.842,-33.881 -78.847,-52.548 -126.798,-52.568c-98.799,0 -179.21,80.405 -179.249,179.234c-0.013,31.593 8.241,62.428 23.927,89.612l-25.429,92.884l95.021,-24.925c26.181,14.28 55.659,21.807 85.658,21.816l0.074,0c98.789,0 179.206,-80.413 179.247,-179.243c0.018,-47.895 -18.61,-92.93 -52.451,-126.81Zm-126.797,275.782l-0.06,0c-26.734,-0.01 -52.954,-7.193 -75.828,-20.767l-5.441,-3.229l-56.386,14.792l15.05,-54.977l-3.542,-5.637c-14.913,-23.72 -22.791,-51.136 -22.779,-79.287c0.033,-82.142 66.867,-148.971 149.046,-148.971c39.793,0.014 77.199,15.531 105.329,43.692c28.128,28.16 43.609,65.592 43.594,105.4c-0.034,82.149 -66.866,148.983 -148.983,148.984Zm81.721,-111.581c-4.479,-2.242 -26.499,-13.075 -30.604,-14.571c-4.105,-1.495 -7.091,-2.241 -10.077,2.241c-2.986,4.483 -11.569,14.572 -14.182,17.562c-2.612,2.988 -5.225,3.364 -9.703,1.12c-4.479,-2.241 -18.91,-6.97 -36.017,-22.23c-13.314,-11.876 -22.304,-26.542 -24.916,-31.026c-2.612,-4.484 -0.279,-6.908 1.963,-9.14c2.016,-2.007 4.48,-5.232 6.719,-7.847c2.24,-2.615 2.986,-4.484 4.479,-7.472c1.493,-2.99 0.747,-5.604 -0.374,-7.846c-1.119,-2.241 -10.077,-24.288 -13.809,-33.256c-3.635,-8.733 -7.327,-7.55 -10.077,-7.688c-2.609,-0.13 -5.598,-0.158 -8.583,-0.158c-2.986,0 -7.839,1.121 -11.944,5.604c-4.105,4.484 -15.675,15.32 -15.675,37.364c0,22.046 16.048,43.342 18.287,46.332c2.24,2.99 31.582,48.227 76.511,67.627c10.685,4.615 19.028,7.371 25.533,9.434c10.728,3.41 20.492,2.929 28.209,1.775c8.605,-1.285 26.499,-10.833 30.231,-21.295c3.732,-10.464 3.732,-19.431 2.612,-21.298c-1.119,-1.869 -4.105,-2.99 -8.583,-5.232Z" />
@@ -649,8 +566,8 @@ StatiXOS is an aftermarket homebrew distribution of Android aiming to be minimal
         </a>
     </li>
     <li>
-        <a target="_blank" rel="noopener noreferrer" aria-label="share StatiXOS v7.12 for Xiaomi Redmi Pad (yunluo) on telegram"
-            href="https://telegram.me/share/url?text=StatiXOS%20v7.12%20for%20Xiaomi%20Redmi%20Pad%20%28yunluo%29&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fstatixos-yunluo%2f">
+        <a target="_blank" rel="noopener noreferrer" aria-label="share Flashing engineering preloader on Xiaomi Redmi Pad (yunluo) and unbricking it on telegram"
+            href="https://telegram.me/share/url?text=Flashing%20engineering%20preloader%20on%20Xiaomi%20Redmi%20Pad%20%28yunluo%29%20and%20unbricking%20it&amp;url=https%3a%2f%2fpranaya.dev%2fposts%2fpreloader_yunluo%2f">
             <svg version="1.1" xml:space="preserve" viewBox="2 2 28 28" height="30px" width="30px" fill="currentColor">
                 <path
                     d="M26.49,29.86H5.5a3.37,3.37,0,0,1-2.47-1,3.35,3.35,0,0,1-1-2.47V5.48A3.36,3.36,0,0,1,3,3,3.37,3.37,0,0,1,5.5,2h21A3.38,3.38,0,0,1,29,3a3.36,3.36,0,0,1,1,2.46V26.37a3.35,3.35,0,0,1-1,2.47A3.38,3.38,0,0,1,26.49,29.86Zm-5.38-6.71a.79.79,0,0,0,.85-.66L24.73,9.24a.55.55,0,0,0-.18-.46.62.62,0,0,0-.41-.17q-.08,0-16.53,6.11a.59.59,0,0,0-.41.59.57.57,0,0,0,.43.52l4,1.24,1.61,4.83a.62.62,0,0,0,.63.43.56.56,0,0,0,.4-.17L16.54,20l4.09,3A.9.9,0,0,0,21.11,23.15ZM13.8,20.71l-1.21-4q8.72-5.55,8.78-5.55c.15,0,.23,0,.23.16a.18.18,0,0,1,0,.06s-2.51,2.3-7.52,6.8Z" />

@@ -2,22 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://pranaya.dev/posts/preloader_yunluo/</loc>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
+  </url><url>
     <loc>https://pranaya.dev/posts/</loc>
-    <lastmod>2024-09-13T09:00:00+05:30</lastmod>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
   </url><url>
     <loc>https://pranaya.dev/</loc>
-    <lastmod>2024-09-13T09:00:00+05:30</lastmod>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
+  </url><url>
+    <loc>https://pranaya.dev/tags/preloader/</loc>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
+  </url><url>
+    <loc>https://pranaya.dev/tags/</loc>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
+  </url><url>
+    <loc>https://pranaya.dev/tags/yunluo/</loc>
+    <lastmod>2024-10-16T18:05:18+05:30</lastmod>
   </url><url>
     <loc>https://pranaya.dev/tags/statixos/</loc>
     <lastmod>2024-09-13T09:00:00+05:30</lastmod>
   </url><url>
     <loc>https://pranaya.dev/posts/statixos-yunluo/</loc>
-    <lastmod>2024-09-13T09:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://pranaya.dev/tags/</loc>
-    <lastmod>2024-09-13T09:00:00+05:30</lastmod>
-  </url><url>
-    <loc>https://pranaya.dev/tags/yunluo/</loc>
     <lastmod>2024-09-13T09:00:00+05:30</lastmod>
   </url><url>
     <loc>https://pranaya.dev/categories/</loc>
