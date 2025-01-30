@@ -4,7 +4,7 @@
     <title>Posts on Pranaya Deomani</title>
     <link>https://pranaya.dev/posts/</link>
     <description>Recent content in Posts on Pranaya Deomani</description>
-    <generator>Hugo -- 0.140.2</generator>
+    <generator>Hugo -- 0.142.0</generator>
     <language>en</language>
     <lastBuildDate>Wed, 16 Oct 2024 18:05:18 +0530</lastBuildDate>
     <atom:link href="https://pranaya.dev/posts/index.xml" rel="self" type="application/rss+xml" />
@@ -13,9 +13,7 @@
       <link>https://pranaya.dev/posts/preloader_yunluo/</link>
       <pubDate>Wed, 16 Oct 2024 18:05:18 +0530</pubDate>
       <guid>https://pranaya.dev/posts/preloader_yunluo/</guid>
-      <description>&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt;
-&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
+      <description>&lt;h2 id=&#34;getting-started&#34;&gt;Getting started&lt;/h2&gt;
 &lt;p&gt;As we have seen in the past &amp;ldquo;&lt;a href=&#34;https://xdaforums.com/t/guide-info-psa-redmi-note-8-pro-megathread-cfw.4056527&#34;&gt;&lt;code&gt;begonia&lt;/code&gt; CFW Megathread&lt;/a&gt;&amp;rdquo;, MTK devices are pretty easy to brick. All it takes is one wrong move and you are FUCKED!&lt;/p&gt;
 &lt;p&gt;The same concept of a brick also applies to &lt;code&gt;yunluo&lt;/code&gt; devices &amp;ldquo;&lt;a href=&#34;https://imgur.com/a/zMw2udb&#34;&gt;Example of what a brick looks like&lt;/a&gt;&amp;rdquo;.
 &lt;style type=&#34;text/css&#34;&gt;
